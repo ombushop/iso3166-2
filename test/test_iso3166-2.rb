@@ -1,5 +1,4 @@
 require 'helper'
-require 'pry'
 
 require "minitest/autorun"
 
