@@ -1,6 +1,7 @@
 # rcov generated
 coverage
 coverage.data
+.DS_Store
 
 # rdoc generated
 rdoc
