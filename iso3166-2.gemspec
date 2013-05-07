@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "iso3166-2.gemspec",
     "lib/data/iso3166-2.csv",
     "lib/data/iso3166-2.json",
     "lib/iso3166-2.rb",
