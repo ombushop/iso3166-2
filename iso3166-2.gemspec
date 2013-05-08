@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "iso3166-2"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ernesto Tagwerker"]
-  s.date = "2013-05-07"
+  s.date = "2013-05-08"
   s.description = "ISO3166_2 for the Rubyist"
   s.email = "ernesto@ombushop.com"
   s.extra_rdoc_files = [
@@ -25,9 +25,9 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "iso3166-2.gemspec",
-    "lib/data/iso3166-2.csv",
-    "lib/data/iso3166-2.json",
     "lib/iso3166-2.rb",
+    "lib/iso3166_2/data/iso3166-2.csv",
+    "lib/iso3166_2/data/iso3166-2.json",
     "lib/iso3166_2/loader/json.rb",
     "test/helper.rb",
     "test/test_iso3166-2.rb"
