@@ -5,7 +5,7 @@ module Loader
     # Loads the ISO3166-2 standard from a CSV
     # file.
     def JSON.load_iso_3166_2
-      json = File.new('lib/data/iso3166-2.json', 'r')
+      json = File.new(File.expand_path('../../data/iso3166-2.json', __FILE__), 'r')
       parser = Yajl::Parser.new
       parser.parse(json)
     end    
